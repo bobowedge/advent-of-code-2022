@@ -17,5 +17,5 @@ totals = calculate_totals(data)
 
 print(f"Solution 1: {max(totals)}")
 
-totals.sort()
-print(f"Solution 1: {sum(totals[:3])}")
+totals.sort(reverse=True)
+print(f"Solution 2: {sum(totals[:3])}")
